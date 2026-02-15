@@ -28,7 +28,7 @@ BASE_DIR = Path(sys.executable).parent if getattr(sys, "frozen", False) else Pat
 CONFIG_PATH = BASE_DIR / "config.json"
 
 # =====================
-# GUI (あなたの貼ったものと同一仕様)
+# GUI
 # =====================
 
 BUTTON_CHOICES = [
@@ -582,3 +582,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
